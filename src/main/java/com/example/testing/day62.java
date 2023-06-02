@@ -23,9 +23,9 @@ public class day62
 	   
 	    driver.findElement(By.xpath("//*[@id=\"first_name\"]")).sendKeys("Roopa Thangam");
 	    
-	    driver.findElement(By.xpath("//*[@id=\"user_email\"]")).sendKeys("sample@gmail.com");
+	    driver.findElement(By.xpath("//*[@id=\"user_email\"]")).sendKeys("sample11@gmail.com");
 	    
-	    driver.findElement(By.xpath("//*[@id=\"user_pass\"]")).sendKeys("Roopa123");
+	    driver.findElement(By.xpath("//*[@id=\"user_pass\"]")).sendKeys("Keerthana@Malathi24221");
 	    
 	    driver.findElement(By.xpath("//*[@id=\"last_name\"]")).sendKeys("R");
 	    
@@ -53,13 +53,17 @@ WebElement date = driver.findElement(By.xpath("/html/body/div[5]/div[2]/div/div[
 	    
 	    driver.findElement(By.xpath("//*[@id=\"input_box_1665629217\"]")).sendKeys("Indian");
 	   
-	   driver.findElement(By.xpath("//*[@id=\"country_1665629257\"]"));
+	   driver.findElement(By.xpath("//*[@id=\"phone_1665627880\"]"));
 	    
 	   js.executeScript("window.scrollBy(0,5000)", "");
 	   
 	   driver.findElement(By.xpath("//*[@id=\"privacy_policy_1665633140\"]")).click();
+	   Thread.sleep(3000);
 	   
 	   driver.findElement(By.xpath("//*[@id=\"user-registration-form-771\"]/form/div[4]/button")).click();
+	   Thread.sleep(3000);
+	   
+	   driver.findElement(By.xpath("//*[@id=\"ur-submit-message-node\"]"));
 	    
 	    
 	    

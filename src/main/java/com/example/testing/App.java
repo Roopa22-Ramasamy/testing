@@ -20,7 +20,7 @@ public class App
        // System.out.println( "Hello World!" );
     	WebDriverManager.edgedriver().setup();
         WebDriver driver = new EdgeDriver();
-        //launching the url
+        //launching the url 
         driver.get("https://demo.opencart.com/index.php?route=account/register&language=en-gb");
         //maximize the window
         driver.manage().window().maximize();
