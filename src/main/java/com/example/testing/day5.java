@@ -29,7 +29,7 @@ public class day5
 	     for(WebElement web : printVar )
 	     {
 	    	 System.out.println(web.getText());
-	     }
+	     } 
 	}
 
 }

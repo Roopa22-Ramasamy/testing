@@ -12,7 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class day_7_3 {
 	WebDriver driver;
-	@BeforeMethod
+	@BeforeMethod          //day9(include itest alone)
 
   public void beforeMethod() 
   {

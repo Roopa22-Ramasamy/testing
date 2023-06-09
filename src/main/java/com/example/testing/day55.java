@@ -37,6 +37,6 @@ public class day55
 	  // System.out.println(openqa.selenium.Dimension dim= search.getSize());
 	   System.out.println(search.getCssValue("color"));
 	   System.out.println(search.getSize());
-	   
+	    
 }
 }
