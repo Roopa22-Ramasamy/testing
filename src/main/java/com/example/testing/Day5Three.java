@@ -10,7 +10,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class day5 
+public class Day5Three 
 {
 	public static void main( String[] args ) throws InterruptedException
 	{
@@ -22,8 +22,7 @@ public class day5
 	   JavascriptExecutor js = (JavascriptExecutor)driver;	
        js.executeScript("window.scrollBy(0,1000)", "");
       //  js.executeScript("window.scrollBy(0,1000)", "");
-	   WebElement clothing = driver.findElement(By.linkText("Clothing (5)"));
-	   
+	   WebElement clothing = driver.findElement(By.linkText("Clothing (5)")); 
 	   clothing.click();
 	     List<WebElement> printVar= driver.findElements(By.xpath("//h2[@class='product-title']"));
 	     for(WebElement web : printVar )
@@ -33,3 +32,5 @@ public class day5
 	}
 
 }
+////*[@id="akeeba-renderjoomla"]/div/div/div[1]/div[2]/div[1]/div/h2/a
+////*[@id="akeeba-renderjoomla"]/div/div/div[1]/div[2]/div[2]/div/h2/a

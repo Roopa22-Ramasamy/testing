@@ -8,7 +8,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Day3  
+public class Day4Three2  
 {
 	 public static void main( String[] args ) throws InterruptedException
 	 {
@@ -28,6 +28,7 @@ public class Day3
     WebElement returns = driver.findElement(By.linkText("Returns"));
     returns.click();
     driver.navigate().back();
+    
     
     WebElement GiftCertificates = driver.findElement(By.linkText("Gift Certificates"));
     GiftCertificates.click();

@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 //day 5 task 4
-public class day54 
+public class Day5Four 
 {
       
 public static void main( String[] args ) throws InterruptedException
